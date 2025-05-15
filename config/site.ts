@@ -2,7 +2,7 @@ export const siteConfig = {
   name: "Rathod Vijaybhai Chandubhai",
   jobTitle: "Maintenance & Plant Operator",
   description:
-    "Experienced maintenance and plant operator with over 20 years of expertise in the pharmaceutical industry.",
+    "Experienced Maintenance & Plant Operator with over 20 years of hands-on expertise in industrial plant operations and maintenance.",
   url: "https://vijayrathod.vercel.app",
   email: "vijayrathod1979@gmail.com",
   phone: "+91 9727950455",

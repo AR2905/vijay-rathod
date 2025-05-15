@@ -50,9 +50,12 @@ export function AboutSection() {
             <CardContent className="p-6 space-y-4">
               <h3 className="text-xl font-semibold">Professional Summary</h3>
               <p className="text-muted-foreground">
-                Experienced maintenance and plant operator with over 20 years of expertise in the pharmaceutical
-                industry. Skilled in operating and maintaining D.M. plants, R.O. plants, and automated filling and
-                sealing machines.
+                Experienced Maintenance & Plant Operator with over 20 years of hands-on expertise in industrial plant
+                operations and maintenance. Skilled in operating and maintaining D.M. (Deionized Water) plants,
+                R.O. (Reverse Osmosis) systems, and automated filling and sealing machinery. Proven ability to ensure
+                smooth, efficient, and safe plant operations across various industrial settings.
+
+
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div className="flex items-center space-x-2">

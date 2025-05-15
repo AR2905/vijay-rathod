@@ -6,7 +6,7 @@ export function SiteFooter() {
   return (
     <footer className="w-full border-t bg-background py-8">
       <div className="container px-4 md:px-6">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="space-y-3">
             <h3 className="text-lg font-semibold">{siteConfig.name}</h3>
             <p className="text-sm text-muted-foreground">{siteConfig.jobTitle}</p>
@@ -32,7 +32,7 @@ export function SiteFooter() {
               </div>
             </div>
           </div>
-          <div className="space-y-3">
+          {/* <div className="space-y-3">
             <h3 className="text-lg font-semibold">Connect</h3>
             <div className="flex space-x-4">
               <Link href={siteConfig.links.linkedin} target="_blank" rel="noreferrer" aria-label="LinkedIn">
@@ -45,7 +45,7 @@ export function SiteFooter() {
                 <Twitter className="h-5 w-5 transition-colors hover:text-primary" />
               </Link>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="mt-8 border-t pt-6 text-center text-sm text-muted-foreground">
           <p>
