@@ -66,7 +66,7 @@ export const metadata: Metadata = {
     apple: "/apple-touch-icon.png",
   },
   manifest: `${siteConfig.url}/site.webmanifest`,
-    generator: 'v0.dev'
+  generator: 'v0.dev'
 }
 
 export default function RootLayout({
@@ -87,7 +87,9 @@ export default function RootLayout({
             <SiteFooter />
           </div>
           <Toaster />
-          <Analytics />
+          <Suspense fallback={null}>
+            <Analytics />
+          </Suspense>
         </ThemeProvider>
       </body>
     </html>

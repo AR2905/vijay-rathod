@@ -3,7 +3,11 @@
 import { usePathname, useSearchParams } from "next/navigation"
 import { useEffect } from "react"
 import Script from "next/script"
-
+declare global {
+  interface Window {
+    gtag?: (...args: any[]) => void
+  }
+}
 export function Analytics() {
   const pathname = usePathname()
   const searchParams = useSearchParams()
@@ -18,7 +22,7 @@ export function Analytics() {
 
   return (
     <>
-      <Script strategy="afterInteractive" src={`https://www.googletagmanager.com/gtag/js?id=G-MEASUREMENT_ID`} />
+      <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-MEASUREMENT_ID" />
       <Script
         id="gtag-init"
         strategy="afterInteractive"
