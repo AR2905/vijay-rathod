@@ -43,7 +43,7 @@ export function SiteHeader() {
     >
       <div className="container flex h-16 items-center justify-between px-4 md:px-6">
         <Link href="/" className="flex items-center space-x-2">
-          <span className="font-bold text-xl tracking-tight">{siteConfig.name.split(" ")[0]}</span>
+          <span className="font-bold text-xl tracking-tight">VR</span>
         </Link>
         <nav className="hidden md:flex items-center space-x-6">
           {navItems.map((item) => (

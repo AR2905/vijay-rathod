@@ -70,9 +70,9 @@ export function HeroSection() {
           </motion.div>
         </div>
         <motion.div variants={itemVariants} className="flex justify-center md:justify-end">
-          <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary/20">
+          <div className="relative w-64-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary/20">
             <Image
-              src="/placeholder.svg?height=320&width=320"
+              src="/profile.jpg?height=320&width=320"
               alt={siteConfig.name}
               fill
               className="object-cover"
