@@ -61,7 +61,7 @@ export function SiteHeader() {
         </div>
       </div>
       {isOpen && (
-        <div className="md:hidden fixed inset-0 top-16 z-50 bg-background/95 backdrop-blur-sm animate-in slide-in-from-top-5 duration-300">
+        <div className="md:hidden absolute top-full left-0 right-0 h-[calc(100vh-4rem)] z-40 bg-background/95 backdrop-blur-sm animate-in slide-in-from-top-5 duration-300">
           <nav className="container flex flex-col items-center justify-center h-full space-y-8">
             {navItems.map((item) => (
               <Link
