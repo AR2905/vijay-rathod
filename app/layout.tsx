@@ -78,7 +78,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head />
+      <head ><meta name="google-site-verification" content="0nHgZyuBD5wyWEWiuMKfdDRGQLYL_ZsZoJABz56_9Dw" /></head>
       <body className={`${inter.className} min-h-screen bg-background antialiased`}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           <div className="relative flex min-h-screen flex-col">
