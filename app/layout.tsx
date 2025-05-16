@@ -20,6 +20,8 @@ export const metadata: Metadata = {
   description: siteConfig.description,
   keywords: [
     "Rathod Vijaybhai Chandubhai",
+    "Rathod Vijay",
+    "Vijay Rathod",
     "Maintenance Operator",
     "Plant Operator",
     "Pharmaceutical Industry",

@@ -127,7 +127,7 @@ export function ExperienceSection() {
                     </CardContent>
                   </Card>
                 </div>
-                <div className="absolute left-4 md:left-1/2 w-4 h-4 rounded-full bg-primary transform -translate-x-1/2 mt-6"></div>
+                <div className="absolute  left-4 md:left-1/2 w-4 h-4 rounded-full bg-primary transform -translate-x-1/2 mt-2 md:mt-6"></div>
               </motion.div>
             ))}
           </div>

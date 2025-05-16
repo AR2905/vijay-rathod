@@ -1,5 +1,5 @@
 export const siteConfig = {
-  name: "Rathod Vijaybhai Chandubhai",
+  name: "Vijay Rathod",
   jobTitle: "Maintenance & Plant Operator",
   description:
     "Experienced Maintenance & Plant Operator with over 20 years of hands-on expertise in industrial plant operations and maintenance.",

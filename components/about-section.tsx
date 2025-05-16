@@ -81,7 +81,7 @@ export function AboutSection() {
           <Card>
             <CardContent className="p-6 space-y-4">
               <h3 className="text-xl font-semibold">Key Skills</h3>
-              <div className="flex flex-wrap gap-2">
+              <div className="flex justify-center md:justify-start flex-wrap gap-2">
                 <Badge>Plant Operation</Badge>
                 <Badge>Maintenance</Badge>
                 <Badge>D.M. Plant Operation</Badge>
